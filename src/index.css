@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+body{
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+
+
+body {
+  @apply bg-gradient-to-b from-pink-100 via-rose-50 to-white;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Títulos com a fonte cursiva */
+/* h1, h2, .titulo-romantico {
+  font-family: 'Great Vibes', cursive;
+} */
